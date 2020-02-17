@@ -1,0 +1,66 @@
+{
+    "navigation":[
+      {
+        "content":"About",
+        "to":"about"
+      },
+      {
+        "content":"Skills",
+        "to":"skills"
+      }
+    ],
+    "title": "Rahil Akbari",
+    "subtitle": "German teacher",
+    "links": {
+      "github": "https://github.com/rahilakbari1988",
+      "linkedin": "https://ir.linkedin.com/in/rahilakbari"
+    },
+    "section": [
+      {
+        "title": "About Rahil ",
+        "items": [
+          {
+            "type": "p",
+            "content": "I love React"
+          }
+        ]
+      },
+      {
+        "title": "Skills",
+        "items": [
+          {
+            "type": "card",
+            "content": {
+              "image": "images/react.png",
+              "title": "React"
+            }
+          },
+          {
+            "type": "card",
+            "content": {
+              "image": "images/javascript.png",
+              "title": "javascript"
+            }
+          },
+          {
+            "type": "card",
+            "content": {
+              "image": "images/python.png",
+              "title": "python"
+            }
+          },
+          {
+            "type": "card",
+            "content": {
+              "image": "images/mining.png",
+              "title": "datamining"
+            }
+          }
+        ]
+      }
+    ],
+    "icons":{
+        "switch":"images/switch.png",
+        "down":"images/down.png"
+    }
+  }
