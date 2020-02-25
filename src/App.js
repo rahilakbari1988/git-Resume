@@ -29,11 +29,12 @@ this.changeTheme = this.changeTheme.bind(this);
   render() {
     return (
       <div className={this.state.theme}>
-        <SwitchTheme onClick={this.changeTheme}/>
+      <SwitchTheme onClick={this.changeTheme}/>
         <NavigationSection />
         <Header />
         <AboutSections />
         <SkillsSection />
+        
       </div>
     );
   }

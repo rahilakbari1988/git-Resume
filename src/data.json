@@ -10,18 +10,19 @@
       }
     ],
     "title": "Rahil Akbari",
-    "subtitle": "German teacher",
+    "subtitle": "Front End Web Developer | German Teacher",
+    "image": "image/rahil.jpg",
     "links": {
       "github": "https://github.com/rahilakbari1988",
       "linkedin": "https://ir.linkedin.com/in/rahilakbari"
     },
     "section": [
       {
-        "title": "About Rahil ",
+        "title": "Information",
         "items": [
           {
             "type": "p",
-            "content": "I love React"
+            "content": "I have Bachelor Degree in Information Technology Engineering.After finishing university I started working as Front-End Developer and i have more than six years experience in developing and designing websites and web applications. My primary skill-set is developing, integrating, and improving UIs with HTML5/CSS3/JavaScript bases frameworks like React .I'm a quick learner, a perfectionist, enthusiastic developer who is looking to continuously develop my skills and I really enjoy designing and building websites and web applications that are accessible, SEO-friendly, responsive, and have a standard user experience, I have worked with different software development methodology like Agile, XP, Scrum etc."
           }
         ]
       },

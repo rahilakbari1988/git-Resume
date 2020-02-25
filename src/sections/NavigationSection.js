@@ -9,7 +9,12 @@ class NavigationSection extends React.Component{
         return(
         <div>
         <ul> 
-          
+            {data.navigation.map(submenu => {
+                return (
+                    <MenuItem submenu={submenu} />
+
+                )
+            })}
         </ul>
         </div>
         )

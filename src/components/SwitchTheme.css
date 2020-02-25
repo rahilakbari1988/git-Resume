@@ -3,3 +3,60 @@ img{
     margin-left:1%;
     cursor: crosshair;
 }
+a {
+    color: #888;
+    text-decoration: none;	
+}
+small {
+    font-size: 13px;	
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+#first_div {
+    width: 90%; 
+    max-width: 600px;
+     min-width: 340px; 
+     margin: 70px auto 0; 
+     color: #444;
+}
+#second_div{
+    width: 90%; 
+    max-width: 600px; 
+    min-width: 340px; 
+    margin: 50px auto 0; 
+    background: #f3f3f3; 
+    border: 6px solid #eaeaea;
+    padding: 20px 40px 40px; 
+    text-align: center; 
+    border-radius: 2px;
+}
+#third_div {
+    width: 90%; 
+    max-width: 600px; 
+    min-width: 340px; 
+    margin: 30px auto 0;	
+}
+#third_div small {
+    float: right;
+    color: #aaa;
+    cursor: pointer;
+    padding-top: 5px;	
+}
+#third_div ul {
+    padding-left: 12px;	
+    max-height: 200px;
+    overflow: auto;
+}
+#third_div li {
+    color: #777;
+    font-size: 14px;
+    line-height: normal;
+    margin: 7px 0;	
+}
+#third_div li em {
+    display: inline-block;
+    width: 130px;
+    color: #555;
+    font-style: normal;	
+}
