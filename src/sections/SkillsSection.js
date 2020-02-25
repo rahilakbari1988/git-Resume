@@ -7,16 +7,16 @@ import Fullpage from '../components/Fullpage';
 export default class SkillsSection extends React.Component {
   render() {
     return (
-<Fullpage className="third">
+      <Fullpage className="third">
         <h3>{data.section[1].title}</h3>
         <div>
           {data.section[1].items.map(skill => {
             return (
-                <SkillCard skill={skill} />
+              <SkillCard skill={skill} />
             );
           })}
         </div>
-</Fullpage>
+      </Fullpage>
     );
   }
 }

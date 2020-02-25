@@ -1,11 +1,19 @@
-import React, { Component } from "react";
+import React from "react";
+import "./DownIcon.css";
 
-export default class DownIcon extends Component {
-  constructor() {
-    super();
-  }
-  render() {
-    const { icon } = this.props;
-    return <img src={icon} class="downIcon" />;
-  }
+class DownIcon extends React.Component
+
+{
+constructor(){
+  super();
 }
+
+  render()
+    {
+      const {icon} = this.props;
+
+      return <img src={icon}  class="downIcon"/>
+    }
+  
+}
+export default DownIcon;
